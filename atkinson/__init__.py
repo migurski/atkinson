@@ -1,1 +1,1 @@
-from .atkinson import atk
+from .atkinson import atk as atk

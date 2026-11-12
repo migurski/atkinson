@@ -1,10 +1,13 @@
-def atk(w: int, h: int, pixels: bytes) -> bytes:
+from typing import SupportsIndex
+
+
+def atk(w: SupportsIndex, h: SupportsIndex, pixels: bytes, /) -> bytes:
     """
     Dither an image using Atkinson dithering algorithm
 
     Args:
-        w (int): Width of the image
-        h (int): Height of the image
+        w (SupportsIndex): Width of the image
+        h (SupportsIndex): Height of the image
         pixels (bytes): Raw grayscale pixel data as bytes
 
     Returns:

@@ -1,0 +1,4 @@
+include atkinson/py.typed
+include atkinson/atkinson.pyi
+include ci_typing_contract.py
+recursive-include tests *.py
